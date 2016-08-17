@@ -1,3 +1,8 @@
+---
+layout: index
+title: Aura Router
+---
+
 # Aura.Router
 
 This is the documentation source for
