@@ -1,3 +1,8 @@
+---
+layout: index
+title: Other Topics
+---
+
 # Other Topics
 
 ## Catchall Routes

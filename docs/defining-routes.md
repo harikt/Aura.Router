@@ -1,3 +1,8 @@
+---
+layout: index
+title: Defining Routes
+---
+
 # Defining Routes
 
 Every time you add a route to the _Map_, you get back a _Route_ object. The _Route_ object is pretty powerful, and allows you to define a wide range of matching conditions. All of the _Route_ methods are fluent, so you can chain them together.

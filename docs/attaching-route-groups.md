@@ -1,3 +1,8 @@
+---
+layout: index
+title: Attaching Route Groups
+---
+
 # Attaching Route Groups
 
 You can add a series of routes under a single master path in the _Map_ using the `Map::attach()` method with a name prefix, path prefix, and a callable to perform the attachment logic.  The callable must take a _Map_ as its only argument.

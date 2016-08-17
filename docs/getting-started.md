@@ -1,3 +1,8 @@
+---
+layout: index
+title: Getting Started
+---
+
 # Getting Started
 
 Aura.Router is a web router implementation for PSR-7.

@@ -1,3 +1,8 @@
+---
+layout: index
+title: Generating Paths From Routes
+---
+
 # Generating Paths From Routes
 
 To generate a path from a route so that you can create links, first retrieve the _Generator_ from the _RouterContainer_.

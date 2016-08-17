@@ -1,3 +1,8 @@
+---
+layout: index
+title: Custom Matching Rules
+---
+
 # Custom Matching Rules
 
 ## Writing A Custom Rule

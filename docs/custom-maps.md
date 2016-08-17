@@ -1,3 +1,8 @@
+---
+layout: index
+title: Building Custom Maps and Routes
+---
+
 # Building Custom Maps and Routes
 
 ## Extending the Map Class
