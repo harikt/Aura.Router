@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <title>Documentation Experiments</title>        
+        <title>Documentation Experiments</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
@@ -15,6 +15,20 @@
     </head>
 
     <body>
+        <nav class="main-nav">
+          <ul>
+            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+            {% for p in navigation_pages %}
+              {% if p.navigation_weight %}
+                <li>
+                  <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+                    {{ p.title }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </nav>
         <div class="container">
 
             {{ content }}
